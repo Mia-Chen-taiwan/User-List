@@ -1,31 +1,45 @@
 #home:hover {
-    transform: scale(1.1)
- }
- 
+  transform: scale(1.1)
+}
+
 .zooming:hover img{
-   transform: scale(1.2);
- }
- 
+ transform: scale(1.2);
+}
+
 .zooming {
-   overflow: hidden;
- }
- 
+ overflow: hidden;
+}
+
 .card-image {
-   transition: all 0.5s ease;
- }
- 
+ transition: all 0.5s ease;
+}
+
+
 .btn-favorite {
-   position: absolute;
-   left: 77%;
-   bottom:1%;
- }
- 
-#favorite i:hover{
-   transform: scale(1.2);
-   color: red;
- }
- 
+ position: absolute;
+ left: 77%;
+ bottom:1%;
+}
+
+.list-favorite{
+ position: absolute;
+ bottom:30%;
+ left: 85%;
+}
+
+#favorite:hover{
+ transform: scale(1.2);
+ color: red;
+}
+
 .fa-heart {
-   color: red;
- }
- 
+ color: red;
+}
+
+.list-avatar {
+ width: 100px;
+}
+
+.list-name {
+ width: 70%;
+}
